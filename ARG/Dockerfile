@@ -3,4 +3,4 @@ FROM almalinux:${VERSION:-9}
 ARG COURSE="DOCKER" \
     TRAINER="SIVAKUMAR"
 RUN echo "Trainer: ${TRAINER}, Course: ${COURSE}, version: ${VERSION}"
-CMD ["sleeo", "1000"]
+CMD ["sleep", "1000"]
